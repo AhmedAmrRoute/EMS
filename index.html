@@ -23,16 +23,19 @@
         <section class="Search-Section">
             <div class="container">
                 <div class="input-group mb-3">
+
                     <input title="choose first and search" id="searchInput"
                         type="text" class="form-control"
                         placeholder="search..." aria-label="search..."
                         aria-describedby="basic-addon1" disabled>
+
                     <select id="Selection-search" class="form-select"
                         style="max-width: 300px;">
                         <option value="null" selected disabled>---select Field
                             To search</option>
                         <option value="name">Name</option>
                         <option value="email">E-mail</option>
+                        <option value="phone">phone</option>
                     </select>
                 </div>
             </div>
@@ -109,8 +112,8 @@
                                                 <button id="CreateBtn"
                                                     class="btn  btn-primary">Create</button>
                                                 <button id="UpdateBtn"
-                                                    class="btn  btn-info"
-                                                    onclick="updateUser()">Update</button>
+                                                    onclick="updateUser()"
+                                                    class="btn  btn-info">Update</button>
                                             </div>
                                         </div>
 

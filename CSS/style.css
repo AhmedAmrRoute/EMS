@@ -17,6 +17,4 @@
 
 .invalidimage {
   border: 1px solid red !important;
-  max-width: fit-content;
-  max-height: fit-content;
 }
